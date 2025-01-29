@@ -1,0 +1,2 @@
+my @array = (1, 2, 3);my $size = @array; # Get the size of the arraymy $index = 2; # Valid indexif ($index < $size) {  my $element = $array[$index]; # Access element only if the index is valid  print "Element at index $index: $element\n";}
+  else {  print "Index out of bounds\n";}
